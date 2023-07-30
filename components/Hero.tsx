@@ -4,12 +4,12 @@ import IconBrandLinkedin from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/br
 export default function Hero() {
   return (
     <div
-      class="w-full flex px-8 py-10 min-h-[24em] justify-center items-center flex-col gap-8 bg-cover bg-center bg-no-repeat bg-gray-100 rounded-xl text-white max-w-2xl shadow-md"
+      class="w-full flex px-8 py-10 min-h-[24em] justify-center items-center flex-col gap-8 bg-cover bg-center bg-no-repeat rounded-xl text-white max-w-2xl shadow-md"
       style="background-image:linear-gradient(rgba(0, 0, 40, 0.8),rgba(0, 0, 40, 0.5)), url('/../bg.jpg');"
     >
       <div>
         <img
-          class="rounded-full p-2 -mt-36 bg-white rounded-xl text-white max-w-32 max-h-32 shadow-md"
+          class="rounded-full p-2 -mt-36 bg-gray-100 rounded-xl text-white max-w-32 max-h-32 shadow-md"
           src={asset("/profile.jpg")}
         />
       </div>
