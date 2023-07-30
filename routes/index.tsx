@@ -1,6 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
 import { useSignal } from "@preact/signals";
-import Counter from "../islands/Counter.tsx";
 import Hero from "../components/Hero.tsx";
 
 export default function Home() {
